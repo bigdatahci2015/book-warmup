@@ -7,7 +7,7 @@ This exercise is taken from [https://github.com/GitbookIO/plugin-exercises](http
 {% exercise %}
 Define a variable `x` equal to 10.
 {% initial %}
-var x =
+var x = 10;
 {% solution %}
 var x = 10;
 {% validation %}
@@ -28,8 +28,7 @@ var sum = 0
 {% solution %}
 var a = 1
 var b = 10
-var sum = 0
-// complete this solution
+var sum = (b * (b + 1)) / 2;
 {% validation %}
 assert(sum == 55)
 {% endexercise %}
