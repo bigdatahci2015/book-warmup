@@ -29,7 +29,10 @@ var sum = 0
 var a = 1
 var b = 10
 var sum = 0
-// complete this solution
+
+for(;a <= b;a++){
+    sum += a
+}
 {% validation %}
 assert(sum == 55)
 {% endexercise %}
