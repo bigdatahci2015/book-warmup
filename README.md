@@ -26,9 +26,9 @@ var a = 1
 var b = 10
 var sum = 0
 {% solution %}
-var a = 1
-var b = 10
-var sum = 0
+var a = 1;
+var b = 10;
+var sum = b*(b+a)/2;
 // complete this solution
 {% validation %}
 assert(sum == 55)
