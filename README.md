@@ -28,8 +28,7 @@ var sum = 0
 {% solution %}
 var a = 1
 var b = 10
-var sum = 0
-// complete this solution
+var sum = (1+b)*(b/2)
 {% validation %}
 assert(sum == 55)
 {% endexercise %}
